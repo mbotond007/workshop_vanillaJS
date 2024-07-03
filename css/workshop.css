@@ -1,0 +1,310 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Sans-serif;
+	background:#ddedfc;
+}
+
+.main_menu
+{
+	display:flex;
+	justify-content:center;
+	margin-top:5px;
+}
+
+.main_menu_inside
+{
+	display:flex;
+	width:80%;
+	/* background:#cccccc; */
+	justify-content:space-between;
+	align-items:center;
+}
+.main_menu_inside img
+{
+	height:50px;
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+}
+
+.main_menu_right
+{
+	display:flex;
+	/* background:yellow; */
+	justify-content:space-between;
+	align-items:center;
+}
+
+.usermenu
+{
+	display:flex;
+	/* background:yellow; */
+	justify-content:space-between;
+	align-items:center;
+}
+
+.main_content
+{
+	/* border:1px solid #cccccc; */
+	margin:20px auto;
+	margin-top: 0px;
+	/* width:80%; */
+	min-height:450px;
+}
+
+.category_menu
+{
+	display:flex;
+	justify-content:center;
+	margin-top:5px;
+	background:#2b4156;
+}
+
+.category_menu_inside
+{
+	display:flex;
+	width:80%;
+	/* background:#cccccc; */
+	justify-content:left;
+	align-items:center;
+	
+}
+
+.category_menu_button
+{
+	text-decoration:none;
+	font-weight:bold;
+	padding:10px;
+	color:white;
+	font-size:16px;
+	/* padding-left:0px; */
+	text-align: center;
+	cursor:pointer;
+}
+
+.menu_button
+{
+	text-decoration:none;
+	font-weight:bold;
+	margin-left:15px;
+	color:#3342d5;
+	font-size:16px;
+	padding:8px;
+	background:white;
+	cursor:pointer;
+	border:1px solid black;
+	border-radius:5px;
+}
+
+.category_menu_button:HOVER
+{
+	color:#f07330;
+}
+
+.menu_button_logout
+{
+	text-decoration:none;
+	/* font-weight:bold; */
+	margin-left:15px;
+	color:#3342d5;
+	font-size:16px;
+	border:1px solid black;
+	border-radius:5px;
+	padding:8px;
+	cursor:pointer;
+}
+
+.category_menu_label
+{
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px;
+	color:white;
+	font-size:18px;
+	text-align: center;
+	/* padding-left:0px; */
+}
+
+.topic_box
+{
+	margin:20px auto;
+	width: 80%;
+}
+
+.topic
+{
+	text-decoration:none;
+	font-weight:bold;
+	margin-top:3px;
+	color:#3342d5;
+	font-size:16px;
+	cursor:pointer;
+}
+
+.topic:HOVER
+{
+	color:#f07330;
+}
+
+.topic_label
+{
+	display: flex;
+	
+}
+
+.search_div
+{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:20%;
+}
+
+.search_button
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	background:#0b6aee;
+	border:1px solid white;
+	border-radius:5px;
+	color:white;
+	margin:0px;
+	text-align: center;
+}
+
+.search_box
+{
+	display:flex;
+	flex-direction: column;
+	padding: 5px;
+	background:#73abf9;
+	border:1px solid white;
+	border-radius:5px;
+	color:#3342d5;
+	margin:0px;
+	width:20%;
+	align-items:center;
+	justify-content:center;
+	float: right;
+}
+#search_topic
+{
+	background:#cccccc;
+	border:1px solid darkblue;
+	border-radius:5px;
+	width:90%;
+}
+
+
+.search_result
+{
+	
+	background:#cccccc;
+	border:1px solid darkblue;
+	width:90%;
+	border-radius:5px;
+}
+
+.one_result
+{
+	cursor: pointer;
+	padding: 3px;
+	border:1px solid darkblue;
+	border-radius:5px;
+	margin:4px;
+	font-size:12px;
+	color:#3342d5;
+}
+.one_result:HOVER
+{
+	color:#f07330;
+}
+.form_div
+{
+	width:25%;
+	margin:30px auto;
+	padding: 10px;
+	margin-bottom: 0px;
+	border:1px solid #dddddd;
+	border-radius:8px;
+	background: white;
+}
+
+.input_box
+{
+	width:100%;
+	margin-top:5px;
+	padding:8px;
+	border:1px solid #cccccc;
+	border-radius:8px;
+	-webkit-box-sizing:border-box; /*ez a select miatt kellet, az nem border-ezik*/	
+}
+
+.label
+{
+	position: relative;
+	left:35px;
+	top:12px;
+	z-index: 2;
+	padding:3px;
+	background: white;
+	font-size: 10px;
+	color:#3342d5;
+	/* border:1px solid white; */
+	/* border-radius:4px; */
+	cursor:pointer;
+	/* display: block; */
+  	margin-left: auto;
+ 	margin-right: auto;
+	/* width:35%; */
+
+}
+
+.login_button
+{
+	margin-top: 10px;
+	color:#3342d5;
+	font-size:16px;
+	font-weight: bold;
+	border:1px solid black;
+	border-radius:5px;
+	padding:8px;
+	cursor:pointer;
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.err_box
+{
+	width:35%;
+	margin:0px auto;
+}
+
+.admin
+{
+	background:#cccccc;
+	padding:8px;
+	border-radius:5px;
+}
+
+.signed
+{
+	border:1px solid blue;
+	border-radius:8px;
+	box-shadow: 3px 3px skyblue;
+}
+	
+.failure_box
+{
+	padding: 3px;
+	margin-top: 3px;
+	background:#e03d06;
+	color:white;
+	border:1px solid #e03d06;
+	border-radius:8px;
+	font-size: 10px;
+}
+
